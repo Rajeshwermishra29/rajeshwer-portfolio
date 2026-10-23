@@ -1,13 +1,14 @@
 :root {
-    --bg-main: #060913;
-    --bg-alt: #0b1120;
-    --card-bg: #111c30;
-    --card-border: #1e293b;
-    --accent: #10b981;
-    --accent-hover: #059669;
-    --text-primary: #f1f5f9;
-    --text-secondary: #94a3b8;
+    --bg-main: #f4f4f5;
+    --bg-alt: #ffffff;
+    --card-bg: #ffffff;
+    --card-border: #e4e4e7;
+    --accent: #4f46e5;          /* Indigo accent */
+    --accent-hover: #4338ca;
+    --text-primary: #18181b;
+    --text-secondary: #71717a;
 }
+
 
 * {
     margin: 0;
