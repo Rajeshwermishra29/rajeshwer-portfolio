@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajeshwer Mishra | AI Engineer & Full-Stack Developer</title>
+    <!-- FontAwesome Icons CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- External CSS File Connection -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Top Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">Rajeshwer<span>.AI</span></a>
+            
+            <!-- Mobile Hamburger Button (Controlled via script.js) -->
+            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="nav-item active">Home</a></li>
+                <li><a href="#experience" class="nav-item">Experience</a></li>
+                <li><a href="#skills" class="nav-item">Skills</a></li>
+                <li><a href="#projects" class="nav-item">Projects</a></li>
+                <li><a href="#education" class="nav-item">Education</a></li>
+                <li><a href="#contact" class="nav-item">Contact</a></li>
+            </ul>
+
+            <a href="Rajeshwer_resume.pdf" download="Rajeshwer_Mishra_Resume.pdf" class="nav-resume-btn">
+                <i class="fa-solid fa-file-arrow-down"></i> Resume
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="container">
+            <span class="badge"><i class="fa-solid fa-circle-check"></i> AI Engineer / AI Support Engineer @ Virtuo.in, Gurugram</span>
+            <h1>Hi, I'm <span class="highlight">Rajeshwer Mishra</span></h1>
+            <!-- Dynamic Typing Text Effect Powered by script.js -->
+            <h2 class="typing-container">I specialize in <span id="typing-text" class="highlight"></span><span class="cursor">|</span></h2>
+            <p>
+                B.Tech Computer Science graduate currently working as an AI Engineer / AI Support Engineer with practical exposure to AI voice agents, chatbots, prompt engineering, and FreePBX/Asterisk telephony infrastructure. Experienced in JavaScript, React, Node.js, Java, and Python.
+            </p>
+            
+            <div class="hero-buttons">
+                <a href="Rajeshwer_resume.pdf" download="Rajeshwer_Mishra_Resume.pdf" class="btn btn-primary">
+                    <i class="fa-solid fa-download"></i> Download Resume (PDF)
+                </a>
+                <a href="#projects" class="btn btn-secondary">
+                    <i class="fa-solid fa-laptop-code"></i> View Projects
+                </a>
+            </div>
+
+            <!-- Direct Social & Professional Account Links -->
+            <div class="social-strip">
+                <a href="https://linkedin.com/in/rajeshwer-mishra" target="_blank" title="LinkedIn">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/Rajeshwermishra29" target="_blank" title="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="mailto:gauravmishra15238@gmail.com" title="Email">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+                <a href="https://wa.me/917080413017" target="_blank" title="WhatsApp">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <a href="tel:+917080413017" title="Call Directly">
+                    <i class="fa-solid fa-phone"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Professional Experience Section -->
+    <section id="experience" class="section reveal">
+        <div class="container">
+            <h2 class="section-title">What I'm Doing Currently</h2>
+            <p class="section-subtitle">My professional experience in AI Engineering, Prompt Design, and VoIP/PBX Infrastructure.</p>
+
+            <div class="timeline">
+                <div class="timeline-card">
+                    <div class="timeline-header">
+                        <div>
+                            <h3>AI Engineer / AI Support Engineer</h3>
+                            <span class="company"><i class="fa-solid fa-building"></i> Virtuo.in — Gurugram, India</span>
+                        </div>
+                        <span class="time-badge">2026 – Present</span>
+                    </div>
+                    <ul class="role-details">
+                        <li>Provide technical support for AI-powered voice and chatbot solutions and assist with testing, configuration, and issue resolution.</li>
+                        <li>Create and improve prompts for AI voice agents and chatbot workflows according to business and customer requirements.</li>
+                        <li>Work with FreePBX and Asterisk-based PBX environments including SIP extensions, trunks, IVR, inbound/outbound routes, and call flows.</li>
+                        <li>Troubleshoot SIP registration, call connectivity, routing, extension, and audio-quality related issues.</li>
+                        <li>Perform server monitoring, disk-space checks, script monitoring, and basic troubleshooting of call-centre infrastructure.</li>
+                        <li>Work with communication platforms such as Plivo and assist in testing IVR and call-related configurations.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Skills Section (With Interactive Filter Tabs via script.js) -->
+    <section id="skills" class="section bg-alt reveal">
+        <div class="container">
+            <h2 class="section-title">Technical Skills & Stack</h2>
+            <p class="section-subtitle">Click any category below to filter my technical toolkit.</p>
+
+            <!-- Interactive Filter Buttons Powered by script.js -->
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Skills</button>
+                <button class="filter-btn" data-filter="ai">AI / LLM</button>
+                <button class="filter-btn" data-filter="dev">Programming & Full-Stack</button>
+                <button class="filter-btn" data-filter="voip">Telephony & Tools</button>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-category" data-category="ai">
+                    <h3><i class="fa-solid fa-brain"></i> AI / LLM Engineering</h3>
+                    <div class="skill-tags">
+                        <span>Prompt Engineering</span>
+                        <span>AI Chatbots</span>
+                        <span>AI Voice Agents</span>
+                        <span>AI Integration</span>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-category="dev">
+                    <h3><i class="fa-solid fa-code"></i> Programming Languages</h3>
+                    <div class="skill-tags">
+                        <span>Java</span>
+                        <span>Python</span>
+                        <span>JavaScript</span>
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-category="dev">
+                    <h3><i class="fa-solid fa-layer-group"></i> Frontend & Backend</h3>
+                    <div class="skill-tags">
+                        <span>React.js</span>
+                        <span>Node.js</span>
+                        <span>REST APIs</span>
+                        <span>HTML5 & CSS3</span>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-category="voip">
+                    <h3><i class="fa-solid fa-phone-volume"></i> Telephony & VoIP (PBX)</h3>
+                    <div class="skill-tags">
+                        <span>FreePBX</span>
+                        <span>Asterisk</span>
+                        <span>SIP</span>
+                        <span>IVR</span>
+                        <span>Extensions & Trunks</span>
+                        <span>Call Routing</span>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-category="voip">
+                    <h3><i class="fa-solid fa-screwdriver-wrench"></i> Tools & Platforms</h3>
+                    <div class="skill-tags">
+                        <span>Git & GitHub</span>
+                        <span>VS Code</span>
+                        <span>PuTTY</span>
+                        <span>MicroSIP</span>
+                        <span>Zoiper</span>
+                        <span>Plivo</span>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-category="ai">
+                    <h3><i class="fa-solid fa-server"></i> Operations & Support</h3>
+                    <div class="skill-tags">
+                        <span>Technical Troubleshooting</span>
+                        <span>Server Monitoring</span>
+                        <span>Customer Support</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects Section -->
+    <section id="projects" class="section reveal">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-subtitle">Hands-on projects in AI Web Applications and PBX / VoIP Infrastructure.</p>
+
+            <div class="project-grid">
+                <div class="project-card">
+                    <div>
+                        <div class="project-icon"><i class="fa-solid fa-file-circle-check"></i></div>
+                        <h3>AI Resume Analyzer</h3>
+                        <p>
+                            Designed an AI-based web application concept that analyzes resume content and provides suggestions to improve skills, structure, and overall presentation.
+                        </p>
+                    </div>
+                    <div class="project-tech">
+                        <span>AI Integration</span>
+                        <span>Prompt Engineering</span>
+                        <span>React / JavaScript</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div>
+                        <div class="project-icon"><i class="fa-solid fa-network-wired"></i></div>
+                        <h3>PBX / VoIP Testing Lab</h3>
+                        <p>
+                            Practiced configuring SIP extensions, trunks, IVR, and inbound/outbound call routes using FreePBX and Asterisk, along with troubleshooting common call connectivity issues.
+                        </p>
+                    </div>
+                    <div class="project-tech">
+                        <span>FreePBX</span>
+                        <span>Asterisk</span>
+                        <span>SIP / IVR</span>
+                        <span>Call Routing</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Core Strengths -->
+            <div class="strengths-wrap">
+                <div class="strength-pill"><i class="fa-solid fa-check-circle"></i> Technical Troubleshooting</div>
+                <div class="strength-pill"><i class="fa-solid fa-lightbulb"></i> Problem Solving</div>
+                <div class="strength-pill"><i class="fa-solid fa-bolt"></i> Quick Learning</div>
+                <div class="strength-pill"><i class="fa-solid fa-comments"></i> Communication</div>
+                <div class="strength-pill"><i class="fa-solid fa-users"></i> Team Collaboration</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section bg-alt reveal">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <p class="section-subtitle">Academic qualification and foundation.</p>
+
+            <div class="timeline">
+                <div class="timeline-card">
+                    <div class="timeline-header">
+                        <div>
+                            <h3>Bachelor of Technology (B.Tech) — Computer Science and Engineering</h3>
+                            <span class="company"><i class="fa-solid fa-graduation-cap"></i> Computer Science Graduate</span>
+                        </div>
+                        <span class="time-badge">2022 – 2026</span>
+                    </div>
+                    <p class="edu-desc">
+                        Completed B.Tech in Computer Science and Engineering with strong fundamentals in Java, Python, JavaScript, Full-Stack Development (React.js, Node.js), and AI Engineering.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Professional Profiles & Direct Contact Section -->
+    <section id="contact" class="section reveal">
+        <div class="container">
+            <h2 class="section-title">Professional Accounts & Contact</h2>
+            <p class="section-subtitle">Connect with me across all platforms or copy my contact details with one click.</p>
+
+            <div class="profiles-grid">
+                <a href="https://linkedin.com/in/rajeshwer-mishra" target="_blank" class="profile-card">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <div>
+                        <h4>LinkedIn</h4>
+                        <span>linkedin.com/in/rajeshwer-mishra</span>
+                    </div>
+                </a>
+
+                <a href="https://github.com/Rajeshwermishra29" target="_blank" class="profile-card">
+                    <i class="fa-brands fa-github"></i>
+                    <div>
+                        <h4>GitHub</h4>
+                        <span>github.com/Rajeshwermishra29</span>
+                    </div>
+                </a>
+
+                <div class="profile-card copy-card" data-copy="gauravmishra15238@gmail.com" title="Click to copy Email">
+                    <i class="fa-solid fa-envelope"></i>
+                    <div>
+                        <h4>Email (Click to Copy)</h4>
+                        <span id="email-text">gauravmishra15238@gmail.com</span>
+                    </div>
+                </div>
+
+                <div class="profile-card copy-card" data-copy="7080413017" title="Click to copy Phone">
+                    <i class="fa-solid fa-phone"></i>
+                    <div>
+                        <h4>Phone (Click to Copy)</h4>
+                        <span>+91 7080413017</span>
+                    </div>
+                </div>
+
+                <a href="https://wa.me/917080413017" target="_blank" class="profile-card">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <div>
+                        <h4>WhatsApp Direct</h4>
+                        <span>Message +91 7080413017</span>
+                    </div>
+                </a>
+
+                <a href="Rajeshwer_resume.pdf" download="Rajeshwer_Mishra_Resume.pdf" class="profile-card highlight-card">
+                    <i class="fa-solid fa-file-pdf"></i>
+                    <div>
+                        <h4>Download Official CV</h4>
+                        <span>Save Rajeshwer_resume.pdf</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scroll to Top Button (Controlled by script.js) -->
+    <button id="scrollTopBtn" title="Back to Top"><i class="fa-solid fa-arrow-up"></i></button>
+
+    <!-- Toast Notification for Copy Action -->
+    <div id="toast" class="toast">Copied to clipboard!</div>
+
+    <footer>
+        <div class="container">
+            <p>© <span id="year"></span> Rajeshwer Mishra. Built with HTML5, CSS3 & JavaScript. Deployed on Vercel.</p>
+        </div>
+    </footer>
+
+    <!-- External JavaScript File Connection -->
+    <script src="script.js"></script>
+</body>
+</html>
