@@ -1,12 +1,12 @@
 :root {
-    --bg-main: #f4f4f5;
-    --bg-alt: #ffffff;
-    --card-bg: #ffffff;
-    --card-border: #e4e4e7;
-    --accent: #4f46e5;          /* Indigo accent */
-    --accent-hover: #4338ca;
-    --text-primary: #18181b;
-    --text-secondary: #71717a;
+    --bg-main: #ffffff;         /* Poore page ka background white */
+    --bg-alt: #f8fafc;          /* Alternate sections ka light gray background */
+    --card-bg: #f1f5f9;         /* Cards ka background */
+    --card-border: #cbd5e1;     /* Cards ki border */
+    --accent: #0284c7;          /* Highlights aur buttons ke liye blue color */
+    --accent-hover: #0369a1;    /* Button hover color */
+    --text-primary: #0f172a;    /* Text color dark slate (white background par readable) */
+    --text-secondary: #475569;  /* Subtitles text color */
 }
 
 
